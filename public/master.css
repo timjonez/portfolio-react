@@ -1,0 +1,22 @@
+body{
+  background-image: url('../media/markus-spiske-qjnAnF0jIGk-unsplash-min.jpg');
+  background-size: cover;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.project{
+  margin-top: 10%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 10px;
+}
+
+.skills{
+  padding-top: 10px;
+  margin-top: 10%;
+  margin-right: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 10px;
+}
