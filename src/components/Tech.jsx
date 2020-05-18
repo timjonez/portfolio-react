@@ -6,7 +6,7 @@ function Tech(props){
   const items = props.tech
 
   return(
-    <div className='skills'>
+    <div>
       <h1>Tech</h1>
       <ul>
       {items.map(entry =>(
