@@ -1,7 +1,7 @@
 const projects = [
   {
     key:1,
-    title:'Invite-Only Company Blog',
+    title:'Company Blog',
     body:'Invite-only website for use with sensitive information, such as internal company procedures, etc. Dynamic, custom user model that requires invite code to sign up(these can be added via the admin). Utilizes smtp forwarder to send emails.',
     demoLink: "http://express.pythonanywhere.com/",
     githubLink:'https://github.com/timjonez/company_blog',

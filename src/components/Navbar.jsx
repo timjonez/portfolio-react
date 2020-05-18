@@ -8,9 +8,9 @@ function Navbar(props){
   };
 
   return(
-    <h3 onClick={change} className={props.id == props.selected && 'active'}>
+    <h5 onClick={change} className={props.id == props.selected && 'active-item'} id='nav-item'>
       {props.title}
-    </h3>
+    </h5>
   )
 }
 
