@@ -16,23 +16,24 @@ function App() {
 
   function changeSelected(page){
     console.log(page)
+    setSelected(page)
   };
 
   return(
     <Container fluid='md'>
      <Row>
       <Col xs={2} className='skills'>
-      {projects.map(project => (
+      {projects.filter(projects => projects.key == selected).map(project =>
         <Tech
           key={project.key}
           id={project.key}
           tech={project.tech}
         />
-      ))}
+      )}
       </Col>
 
       <Col xs={7} className='project'>
-        {projects.map(project => (
+        {projects.filter(projects => projects.key == selected).map(project =>
           <Project
             key={project.key}
             id={project.key}
@@ -41,7 +42,7 @@ function App() {
             demoLink={project.demoLink}
             codeLink={project.githubLink}
           />
-        ))}
+        )}
        </Col>
        <Col xs={2} className='main-nav' >
           {projects.map(project => (

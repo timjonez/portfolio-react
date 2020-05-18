@@ -8,7 +8,7 @@ function Navbar(props){
   };
 
   return(
-    <h3 onClick={change}>
+    <h3 onClick={change} className={props.id == props.selected && 'active'}>
       {props.title}
     </h3>
   )
