@@ -8,6 +8,13 @@ function HomeSlide(){
       <Carousel.Item>
         <img
           className="d-block w-100"
+          src="./media/notesapi.png"
+          alt="Notes App"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
           src="./media/express_lg.png"
           alt="Company blog"
         />
